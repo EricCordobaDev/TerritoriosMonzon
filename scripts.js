@@ -1,6 +1,6 @@
 function verificarCodigo() {
      const codigo = document.getElementById('codigo').value;
-     if (codigo === '1234') { // Puedes cambiar el código según tus necesidades
+     if (codigo === 'Monzon1914') { // Puedes cambiar el código según tus necesidades
          window.location.href = 'principal.html';
      } else {
          alert('Código incorrecto');
@@ -19,8 +19,8 @@ function verificarCodigo() {
  
      cell1.contentEditable = true;
      cell2.contentEditable = true;
-     cell3.contentEditable = true;
-     cell4.contentEditable = true;
+     cell3.innerHTML = '<input type="date">';
+     cell4.innerHTML = '<input type="date">';
      cell5.innerHTML = '<button onclick="eliminarFila(this)">Eliminar</button>';
  }
  
