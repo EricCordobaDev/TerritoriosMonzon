@@ -1,6 +1,6 @@
 function verificarCodigo() {
      const codigo = document.getElementById('codigo').value;
-     if (codigo === 'Monzon1914') { // Puedes cambiar el código según tus necesidades
+     if (codigo === '1914') { // Puedes cambiar el código según tus necesidades
          window.location.href = 'principal.html';
      } else {
          alert('Código incorrecto');
