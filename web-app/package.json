@@ -1,0 +1,15 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "Aplicación web para mostrar y gestionar datos en una tabla.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

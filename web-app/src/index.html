@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tabla de Datos</h1>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- Las filas de datos se agregarán aquí dinámicamente -->
+        </tbody>
+    </table>
+    <form id="data-form">
+        <input type="number" id="id-input" placeholder="ID" required>
+        <input type="text" id="name-input" placeholder="Nombre" required>
+        <input type="text" id="value-input" placeholder="Valor" required>
+        <button type="submit" id="add-row-button">Agregar</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
